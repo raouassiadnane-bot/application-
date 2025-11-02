@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+<link rel="stylesheet" href="design.css">    
+</head>
+<body>
+    
+    <div class="main-div" >
+            <input class="name-input" type="text" placeholder="entrer un nom" onchange="enterName(event)">
+           <input class="display-input" type="submit" value="ajouter un nom" onclick="DisplayName()">
+    </div>
+
+   <div class="nom-list">
+    <ul id="list" class="list">
+        
+    </ul>
+   </div>
+
+   <div>
+    <input type="submit" value="choisir un nom" onclick="chooseName()">
+
+   </div>
+  
+   <div class="popupDiv" id="popupDiv">
+         <p id="nomchoisir"></p>
+         <button onclick="closePop()">close</button>
+   </div>
+    
+ 
+    
+
+</body>
+</html>

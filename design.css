@@ -1,0 +1,68 @@
+.main-div{
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rebeccapurple; /* light blue background */
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* Style <h> & <p> inside .main-div */
+.main-div h1, 
+.main-div h2, 
+.main-div h3 {
+  color: blue; 
+  text-align: center;
+}
+
+.main-div p {
+  color: gray;
+  font-size: 14px;
+  text-align: center;
+}
+
+
+.name-input {
+  padding: 10px; 
+  border-radius: 8px; 
+  border: 1px solid #ccc;
+}
+ 
+
+.display-input{
+  background-color:darkred;
+  border-radius: 30px;
+  border: 5px solid #0aa;
+  transition:1s;
+  padding: 10px;
+}
+
+.display-input:hover {
+  background-color: rgb(29, 112, 104); 
+}
+
+.nom-list {
+  padding: 10px; 
+  border-radius: 8px; 
+  background-color: #6d948b;
+}
+
+li{
+  padding-bottom: 20px ;
+}
+
+.popupDiv {
+  display: none;
+  position: fixed;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(183, 135, 135); 
+  padding: 20px; 
+  border-radius: 10px; 
+  box-shadow: 10px 10px 10px 10px #0003;
+}
+
+/* .popup.display {
+  display: flex;  
+} */
