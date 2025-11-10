@@ -1,0 +1,21 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="#663399" stroke="#0aa" stroke-width="5"/>
+  
+  <!-- Inner decorative circle -->
+  <circle cx="100" cy="100" r="75" fill="none" stroke="#8b5cf6" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Random selection icon - dice-like design -->
+  <rect x="60" y="60" width="80" height="80" rx="10" fill="#fff" opacity="0.9"/>
+  
+  <!-- Dots pattern -->
+  <circle cx="75" cy="75" r="6" fill="#663399"/>
+  <circle cx="100" cy="100" r="6" fill="#663399"/>
+  <circle cx="125" cy="125" r="6" fill="#663399"/>
+  <circle cx="125" cy="75" r="6" fill="#663399"/>
+  <circle cx="75" cy="125" r="6" fill="#663399"/>
+  
+  <!-- Shuffle/random arrows -->
+  <path d="M 85 95 L 75 100 L 85 105" stroke="#8b0000" stroke-width="2" fill="none"/>
+  <path d="M 115 95 L 125 100 L 115 105" stroke="#8b0000" stroke-width="2" fill="none"/>
+</svg>
